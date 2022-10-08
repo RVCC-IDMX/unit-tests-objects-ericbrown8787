@@ -28,13 +28,13 @@
  */
 function makePetObject() {
   return {
-    name: "Mephistopheles",
+    name: 'Mephistopheles',
     age: 8756,
-    species: "Cat(?)",
+    species: 'Cat(?)',
     hasFur: true,
     legs: 7.5,
-    bestFriend: "me",
-  }
+    bestFriend: 'me',
+  };
 }
 
 /**
@@ -59,7 +59,7 @@ function getPetName(pet) {
  */
 function getPetAge(pet) {
   // eslint-disable-next-line dot-notation
-  return pet["age"];
+  return pet['age'];
 }
 
 /**
